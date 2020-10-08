@@ -1,0 +1,93 @@
+body {
+  background-color: #393030;
+  margin: 0;
+}
+
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#logo{
+  width: 5px;
+  height: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav{
+  background-color: #d9d9d9;
+  width: 100%;
+  justify-content: center;
+}
+.indryk{
+  width: 110%;
+}
+nav a {
+  margin: auto;
+  margin-left: 10%;
+  display: inline-block;
+  padding: 20px 30px;
+  justify-content: space-between;
+}
+h1 {
+  font-family: helvetica, arial;
+  font-weight: 700;
+  color: #DEDE3C;
+  font-size: 45px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+p {
+  font-family: helvetica, arial;
+  font-size: 25px;
+  font-weight: 500;
+  color: #DEDE3C;
+}
+
+h2 {
+  color: #DEDE3C;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: helvetica, arial;
+  left: -20px;
+}
+h3{
+  font-family: helvetica, arial;
+  font-size: 30px;
+  font-weight: 300;
+  color: #DEDE3C;
+}
+
+a {
+  font-family: helvetica, arial;
+  color: #0055ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #35D8F2;
+}
+
+a:active {
+  color: #002266;
+}
+img-1 img{
+  margin-top: 50px;
+}
+img-2 img{
+  margin-top: 1000px;
+}
+@media screen and (max-width: 945px){
+header{
+margin: 2%;
+width: 96;
+flex-direction: column;
+height: 96%;
+}
